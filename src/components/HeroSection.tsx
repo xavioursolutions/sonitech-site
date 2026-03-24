@@ -25,7 +25,7 @@ const HeroSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <span className="inline-block text-sm tracking-[0.3em] uppercase text-gold-light/80 mt-6 md:mt-0 lg:mt-0 mb-6 font-body">
+          <span className="inline-block text-sm tracking-[0.3em] uppercase text-gold-light/80 mt-24 md:mt-0 lg:mt-0 mb-6 font-body">
             Innovation • Technology • Scale
           </span>
         </motion.div>
