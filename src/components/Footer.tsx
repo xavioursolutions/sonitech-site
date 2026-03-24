@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="font-display text-sm">
           <span className="text-gradient-gold font-semibold">Sonitech</span>
-          <span className="text-muted-foreground ml-1">Australia</span>
+          {/* <span className="text-muted-foreground ml-1">Australia</span> */}
         </div>
         
         <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground font-body">
@@ -17,7 +17,7 @@ const Footer = () => {
         </div>
 
         <p className="text-sm text-muted-foreground font-body">
-          © {new Date().getFullYear()} Sonitech Australia. All rights reserved.
+          © {new Date().getFullYear()} Sonitech. All rights reserved.
         </p>
       </div>
     </footer>

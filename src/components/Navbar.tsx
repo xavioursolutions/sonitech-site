@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 w-full flex items-center justify-between h-20">
           <a href="#" className="font-display text-xl font-bold tracking-tight z-50 flex-shrink-0">
             <span className="text-gradient-gold">Sonitech</span>
-            <span className="text-foreground/80 ml-1 text-xs sm:text-sm font-body font-light tracking-widest uppercase">Australia</span>
+            {/* <span className="text-foreground/80 ml-1 text-xs sm:text-sm font-body font-light tracking-widest uppercase">Australia</span> */}
           </a>
 
           <div className="hidden md:flex items-center gap-8">
